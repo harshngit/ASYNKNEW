@@ -49,7 +49,7 @@ const FooterOne = () => {
               <div className="footer-logo">
                 <Link href="/creative-agency">
                   <img
-                    src="/assets/imgs/logo/logo-3-light.png"
+                    src="/assets/imgs/logo/logoasynkwhite.png"
                     alt="site logo"
                   />
                 </Link>
@@ -62,9 +62,9 @@ const FooterOne = () => {
                     <li>
                       <Link
                         className="draw-underline"
-                        href="mailto:hello@averto.com"
+                        href="mailto:work@asynk.in"
                       >
-                        hello@averto.com
+                        work@asynk.in
                       </Link>
                     </li>
                   </ul>
@@ -98,7 +98,7 @@ const FooterOne = () => {
             <div className="copyright-text">
               <p className="text">
                 Design & Developed by&nbsp;
-                <Link href="https://themeforest.net/user/pixavation">Pixavation</Link>
+                <Link href="https://themeforest.net/user/pixavation">ASYNK</Link>
               </p>
             </div>
             <ul className="copyright-nav-list">

@@ -1,11 +1,9 @@
 import { ReactElement } from "react";
 import type { Metadata } from "next";
 import Header from "@/components/CreativeAgency/Header";
-import BlogSection from "@/components/CreativeAgency/BlogSection";
 import Footer from "@/components/CreativeAgency/Footer";
 import Testimonial from "@/components/CreativeAgency/Testimonial";
 import BrandSection from "@/components/CreativeAgency/BrandSection";
-import TeamSection from "@/components/CreativeAgency/TeamSection";
 import ServiceSection from "@/components/CreativeAgency/ServicesSection";
 import ProcessSection from "@/components/CreativeAgency/ProcessSection";
 import AboutSection from "@/components/CreativeAgency/AboutSection";
@@ -20,39 +18,49 @@ import aboutData from '@/constant/CreativeAgency/about';
 import processData from '@/constant/CreativeAgency/process';
 import servicesData from "@/constant/CreativeAgency/services";
 import workData from "@/constant/CreativeAgency/work";
-import teamsData from "@/constant/CreativeAgency/teams";
 import testimonialsData from "@/constant/CreativeAgency/brands";
 import testimonialData from "@/constant/CreativeAgency/testimonial";
-import blogData from "@/constant/CreativeAgency/blog";
 
 export const metadata: Metadata = {
-  title: "Creative Agency || Averto - Creative Digital Agency NextJS Template",
+  title: "Asynk - IT & Marketing Agency",
   description:
-    "Welcome to Averto Creative Agency template — a stylish and modern Next.js homepage designed for creative agencies. Showcasing portfolio, services, team, and innovative projects with performance and SEO in mind.",
+    "Asynk is a modern and responsive Next.js website for an IT & Marketing agency. Featuring a sleek design, fast performance, and SEO optimization, Asynk provides a strong foundation for building a high-quality website.",
   keywords: [
-    "Averto creative agency",
-    "NextJS creative agency template",
-    "creative agency homepage",
-    "modern agency website",
-    "portfolio showcase",
-    "creative services",
+    "NextJS template",
+    "agency website template",
+    "business website template",
+    "responsive web design",
+    "SEO optimized template",
+    "modern NextJS template",
+    "agency website design",
+    "high-performance website template",
+    "web development",
+    "business template NextJS",
+    "Asynk website",
     "digital agency template",
-    "NextJS startup template",
-    "responsive agency website",
-    "SEO optimized agency site",
-    "agency team page",
-    "design portfolio",
-    "creative project showcase",
-    "frontend development",
-    "agency landing page",
-    "professional agency template",
+    "corporate website template",
+    "startup website template",
+    "clean website design",
+    "modern business template",
+    "customizable NextJS template",
+    "business landing page template",
+    "professional web design template",
+    "NextJS portfolio template",
+    "creative agency website template",
+    "landing page template",
+    "NextJS website themes",
+    "responsive business templates",
+    "NextJS for agencies",
+    "SEO friendly web template",
+    "business site design template",
+    "fast website template",
   ],
   creator: "PixaVation",
   other: {
     developer: "PixaVation",
-    section: "Creative Agency Page",
   },
 };
+
 
 const CreativeAgencyPage = (): ReactElement => {
   return (
@@ -65,10 +73,8 @@ const CreativeAgencyPage = (): ReactElement => {
           <ProcessSection data={processData} />
           <ServiceSection data={servicesData} />
           <WorkSection data={workData} />
-          <TeamSection data={teamsData} />
           <BrandSection data={testimonialsData} />
           <Testimonial data={testimonialData} />
-          <BlogSection data={blogData} />
         </main>
         <Footer />
       </SmoothScroll>

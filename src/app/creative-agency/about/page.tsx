@@ -4,9 +4,6 @@ import Breadcrumb from "@/components/CreativeAgency/common/Breadcrumb";
 import AboutSection from "@/components/CreativeAgency/AboutSection";
 import VideoSection from "@/components/CreativeAgency/About/VideoSection";
 import BrandSection from "@/components/CreativeAgency/BrandSection";
-import TeamsSection from "@/components/CreativeAgency/TeamSection";
-import TextSliderSection from "@/components/CreativeAgency/TextSliderSection";
-import BlogSection from "@/components/CreativeAgency/BlogSection";
 import Footer from "@/components/CreativeAgency/Footer";
 import Header from "@/components/CreativeAgency/Header";
 import SmoothScroll from "@/components/CreativeAgency/Animation/SmoothScroll";
@@ -15,9 +12,6 @@ import SmoothScroll from "@/components/CreativeAgency/Animation/SmoothScroll";
 import aboutData from "@/constant/CreativeAgency/about";
 import videoData from "@/constant/CreativeAgency/About/video";
 import brandData from "@/constant/CreativeAgency/brands";
-import teamData from "@/constant/CreativeAgency/teams";
-import textSliderData from "@/constant/CreativeAgency/textSlider";
-import blogData from "@/constant/CreativeAgency/blog";
 import headerData from "@/constant/CreativeAgency/header";
 
 export const metadata: Metadata = {
@@ -63,9 +57,6 @@ const AboutPage = (): ReactElement => {
           <AboutSection type="v2" data={aboutData} />
           <VideoSection data={videoData} />
           <BrandSection data={brandData} />
-          <TeamsSection data={teamData} />
-          <TextSliderSection data={textSliderData} />
-          <BlogSection data={blogData} />
         </main>
         <Footer />
       </SmoothScroll>
